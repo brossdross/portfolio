@@ -16,7 +16,7 @@ $asunto = 'Este mail es del portfolio';
 mail($para, $asunto, utf8_decode($mensaje), $header);
 
 header(Swal.fire(
-  'GRACIAS POR SU COMPRA',
+  '',
   'ENVIAMOS SU FACTURA A SU E-MAIL',
   'success'
 ))
